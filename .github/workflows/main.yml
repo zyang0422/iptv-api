@@ -17,11 +17,13 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
+          cache: 'pip'  # 启用 pip 缓存
           
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+          sudo apt-get update && sudo apt-get install -y ffmpeg  # 安装 ffmpeg
           
       - name: Update IPTV sources
         run: python main.py

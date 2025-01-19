@@ -1,2 +1,18 @@
-m3u8>=3.3.0
-aiohttp>=3.8.0 
+# 基础依赖
+tqdm>=4.65.0
+requests>=2.31.0
+aiohttp>=3.9.1
+beautifulsoup4>=4.12.2
+m3u8>=3.6.0
+
+# 数据处理
+opencc-python-reimplemented>=0.1.7
+python-dateutil>=2.8.2
+
+# 网络和解析
+selenium>=4.15.2
+urllib3>=2.1.0
+yarl>=1.9.3
+
+# 其他工具
+colorama>=0.4.6 
