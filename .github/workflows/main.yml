@@ -25,6 +25,9 @@ jobs:
           pip install -r requirements.txt
           sudo apt-get update && sudo apt-get install -y ffmpeg  # 安装 ffmpeg
           
+      - name: Create output directory
+        run: mkdir -p output
+          
       - name: Update IPTV sources
         run: python main.py
         
@@ -32,6 +35,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add output/result.txt output/result.m3u
+          git add -f output/result.txt output/result.m3u
           git commit -m "🚀 自动更新IPTV源" || echo "No changes to commit"
           git push origin main
