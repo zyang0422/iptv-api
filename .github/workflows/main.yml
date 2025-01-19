@@ -5,17 +5,15 @@ on:
     - cron: '0 6,18 * * *'  # 每天北京时间 14:00 和 02:00 运行
   workflow_dispatch:  # 允许手动触发
 
-permissions:
-  contents: write  # 添加写入权限
-  
 jobs:
   update:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v3
         with:
           ref: main
-          token: ${{ secrets.GITHUB_TOKEN }}  # 使用 GITHUB_TOKEN
       
       - name: Set up Python
         uses: actions/setup-python@v4
