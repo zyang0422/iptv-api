@@ -281,19 +281,6 @@ docker run -v /etc/docker/config:/iptv-api-lite/config -v /etc/docker/output:/ip
 
 [更新日志](./CHANGELOG.md)
 
-## 赞赏
-
-<div>开发维护不易，请我喝杯咖啡☕️吧~</div>
-
-| 支付宝                                  | 微信                                      |
-|--------------------------------------|-----------------------------------------|
-| ![支付宝扫码](./static/images/alipay.jpg) | ![微信扫码](./static/images/appreciate.jpg) |
-
-## 关注
-
-微信公众号搜索 Govin，或扫码，接收更新推送、学习更多使用技巧：
-
-![微信公众号](./static/images/qrcode.jpg)
 
 ## 免责声明
 
@@ -302,3 +289,123 @@ docker run -v /etc/docker/config:/iptv-api-lite/config -v /etc/docker/output:/ip
 ## 许可证
 
 [MIT](./LICENSE) License &copy; 2024-PRESENT [Govin](https://github.com/guovin)
+
+## 项目结构
+
+```
+.
+├── .github/workflows/          # GitHub Actions 工作流配置
+│   ├── main.yml               # IPTV源更新工作流
+│   ├── docker-build.yml       # Docker镜像构建工作流  
+│   └── release.yml            # 版本发布工作流
+├── config/                     # 配置文件目录
+│   ├── config.ini             # 主配置文件
+│   ├── demo.txt               # 频道模板文件
+│   ├── local.txt              # 本地源配置
+│   ├── subscribe.txt          # 订阅源配置
+│   ├── whitelist.txt          # 白名单配置
+│   └── blacklist.txt          # 黑名单配置
+├── utils/                      # 工具类目录
+│   ├── channel.py             # 频道处理模块
+│   ├── speed.py               # 速度测试模块
+│   └── tools.py               # 通用工具模块
+├── output/                     # 输出目录
+│   ├── result.m3u             # M3U格式结果
+│   └── result.txt             # 文本格式结果
+├── requirements.txt           # Python依赖配置
+├── main.py                    # 主程序入口
+└── activate.sh                # 虚拟环境激活脚本
+```
+
+## 工作流说明
+
+### 1. main.yml - IPTV源更新工作流
+- 触发条件：
+  - 定时触发：每天北京时间14:00和02:00
+  - 支持手动触发
+- 主要功能：
+  - 安装Python环境和依赖
+  - 更新IPTV源
+  - 自动提交更新结果
+
+### 2. docker-build.yml - Docker镜像构建工作流
+- 触发条件：
+  - Dockerfile或requirements.txt变更时
+  - 支持手动触发
+- 主要功能：
+  - 构建多平台Docker镜像(amd64/arm64)
+  - 推送镜像到Docker Hub
+  - 维护latest和版本标签
+
+### 3. release.yml - 版本发布工作流
+- 触发条件：
+  - 推送版本标签(v*)时
+  - 支持手动触发并指定版本
+- 主要功能：
+  - 打包项目文件
+  - 创建GitHub Release
+  - 上传发布包
+
+## 配置文件说明
+
+### 1. config.ini
+主配置文件，包含所有可配置项：
+- 功能开关配置
+- 接口数量限制
+- 测速参数设置
+- 服务端口配置
+- 时区设置等
+
+### 2. demo.txt
+频道模板文件，定义需要获取的频道列表：
+- 频道分类
+- 频道名称
+- 频道排序
+
+### 3. local.txt
+本地源配置文件：
+- 自定义IPTV源
+- 支持设置白名单
+- 一行一个源
+
+### 4. subscribe.txt
+订阅源配置文件：
+- 远程M3U8播放列表
+- 支持代理加速
+- 一行一个订阅
+
+### 5. whitelist.txt
+白名单配置：
+- 可信IPTV流列表
+- 优先处理且不过滤
+- 支持按频道名过滤
+
+### 6. blacklist.txt
+黑名单配置：
+- 禁止的IPTV流列表
+- 自动过滤匹配的流
+- 支持关键字匹配
+
+## 核心模块说明
+
+### 1. speed.py
+速度测试模块：
+- M3U8流测试
+- 下载速度测量
+- 流分辨率检测
+- 基于FFmpeg的流分析
+- 速度测试结果缓存
+
+### 2. channel.py
+频道处理模块：
+- 频道解析
+- 模板匹配
+- 源聚合
+- 结果生成
+
+### 3. tools.py
+通用工具模块：
+- 网络请求
+- 文件操作
+- 缓存管理
+- 日志记录
