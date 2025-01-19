@@ -1,3 +1,17 @@
+"""
+IPTV API 主程序
+
+本模块是程序的入口点，负责协调各个功能模块完成IPTV源的更新工作。
+主要功能：
+- 管理更新任务的创建和执行
+- 处理多种数据源的聚合
+- 控制测速和排序流程
+- 生成最终结果文件
+
+核心类：
+- UpdateSource: 更新源管理器，负责整个更新流程的协调
+"""
+
 import asyncio
 import copy
 import pickle
@@ -38,21 +52,31 @@ from utils.tools import (
 class UpdateSource:
 
     def __init__(self):
-        self.update_progress = None
-        self.run_ui = False
-        self.tasks = []
-        self.channel_items = {}
-        self.hotel_fofa_result = {}
-        self.hotel_foodie_result = {}
-        self.multicast_result = {}
-        self.subscribe_result = {}
-        self.online_search_result = {}
-        self.channel_data = {}
+        """
+        初始化更新源管理器
+        设置各种数据源的存储容器和进度显示工具
+        """
+        self.update_progress: callable = None
+        self.run_ui: bool = False
+        self.tasks: list = []
+        self.channel_items: dict = {}
+        self.hotel_fofa_result: dict = {}
+        self.hotel_foodie_result: dict = {}
+        self.multicast_result: dict = {}
+        self.subscribe_result: dict = {}
+        self.online_search_result: dict = {}
+        self.channel_data: dict = {}
         self.pbar = None
-        self.total = 0
-        self.start_time = None
+        self.total: int = 0
+        self.start_time: float = None
 
     async def visit_page(self, channel_names=None):
+        """
+        访问各个数据源并获取频道信息
+        
+        参数:
+            channel_names: 要获取的频道名称列表，如果为None则获取所有频道
+        """
         tasks_config = [
             ("hotel_fofa", get_channels_by_fofa, "hotel_fofa_result"),
             ("multicast", get_channels_by_multicast, "multicast_result"),
@@ -68,7 +92,7 @@ class UpdateSource:
         for setting, task_func, result_attr in tasks_config:
             if (
                     setting == "hotel_foodie" or setting == "hotel_fofa"
-            ) and config.open_hotel == False:
+            ) and not config.open_hotel:
                 continue
             if config.open_method[setting]:
                 if setting == "subscribe":
@@ -87,12 +111,23 @@ class UpdateSource:
                 setattr(self, result_attr, await task)
 
     def pbar_update(self, name=""):
-        if self.pbar.n < self.total:
-            self.pbar.update()
-            self.update_progress(
-                f"正在进行{name}, 剩余{self.total - self.pbar.n}个接口, 预计剩余时间: {get_pbar_remaining(n=self.pbar.n, total=self.total, start_time=self.start_time)}",
-                int((self.pbar.n / self.total) * 100),
-            )
+        """
+        更新进度条显示
+        
+        参数:
+            name: 当前正在处理的任务名称
+        """
+        if self.pbar and self.pbar.n < self.total:
+            try:
+                self.pbar.update()
+                progress = int((self.pbar.n / self.total) * 100)
+                remaining = self.total - self.pbar.n
+                self.update_progress(
+                    f"正在进行{name}, 剩余{remaining}个接口, 预计剩余时间: {get_pbar_remaining(n=self.pbar.n, total=self.total, start_time=self.start_time)}",
+                    progress,
+                )
+            except Exception as e:
+                print(f"Progress bar update error: {e}")
 
     def get_urls_len(self, filter=False):
         data = copy.deepcopy(self.channel_data)
@@ -139,7 +174,7 @@ class UpdateSource:
                     urls_total = self.get_urls_len()
                     self.total = self.get_urls_len(filter=True)
                     print(f"Total urls: {urls_total}, need to sort: {self.total}")
-                    sort_callback = lambda: self.pbar_update(name="测速")
+                    sort_callback = lambda: self.pbar_update("测速")
                     self.update_progress(
                         f"正在测速排序, 共{urls_total}个接口, {self.total}个接口需要进行测速",
                         0,
@@ -161,6 +196,8 @@ class UpdateSource:
                     ipv6=ipv6_support,
                     callback=lambda: self.pbar_update(name="写入结果"),
                 )
+                if self.pbar and self.pbar.n < self.total:
+                    self.pbar.update(self.total - self.pbar.n)
                 self.pbar.close()
                 update_file(user_final_file, constants.result_path)
                 if config.open_history:
@@ -194,12 +231,14 @@ class UpdateSource:
                 if open_service:
                     run_service()
         except asyncio.exceptions.CancelledError:
-            print("Update cancelled!")
+            print("❌ Update cancelled!")
+            if self.pbar:
+                self.pbar.close()
 
     async def start(self, callback=None):
-        def default_callback(self, *args, **kwargs):
+        def default_callback(*args, **kwargs):
             pass
-
+        
         self.update_progress = callback or default_callback
         self.run_ui = True if callback else False
         await self.main()

@@ -1,3 +1,21 @@
+"""
+速度测试模块
+
+本模块提供流媒体速度和质量测试功能。
+主要功能：
+- M3U8流测试
+- 下载速度测量
+- 流分辨率检测
+- 基于FFmpeg的流分析
+- 速度测试结果缓存管理
+
+主要函数：
+- get_speed(): 测试流速度和质量
+- get_delay_requests(): 测试流响应时间
+- get_resolution_ffprobe(): 检测流分辨率
+- sort_urls(): 基于质量指标对URL进行排序
+"""
+
 import asyncio
 import http.cookies
 import json
@@ -351,7 +369,7 @@ def sort_urls(name, data, supply=config.open_supply, filter_speed=config.open_fi
                 try:
                     if logger:
                         logger.info(
-                            f"Name: {name}, URL: {result["url"]}, Date: {date}, Delay: {delay} ms, Speed: {speed:.2f} M/s, Resolution: {resolution}"
+                            f"Name: {name}, URL: {result['url']}, Date: {date}, Delay: {delay} ms, Speed: {speed:.2f} M/s, Resolution: {resolution}"
                         )
                 except Exception as e:
                     print(e)
