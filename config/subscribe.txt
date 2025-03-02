@@ -2,6 +2,8 @@
 # This is a list of subscription sources, with one subscription address per line
 
 http://175.178.251.183:6689/aktvlive.txt
+https://zb.nxbox.top/user_result.txt
+http://live.zbds.top/tv/iptv4.txt
 http://189.1.224.165:7105/TVBoxOSC/tvbox/ITV.txt
 https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv6.m3u
 https://raw.githubusercontent.com/WaykeYu/iptv_integ/refs/heads/main/source/txt/4gTV.txt
