@@ -2,9 +2,9 @@
 # This is a list of subscription sources, with one subscription address per line
 
 
-https://6296.kstore.vip/25.txt
+
 http://175.178.251.183:6689/aktvlive.txt
-https://zb.nxbox.top/user_result.txt
+
 http://live.zbds.top/tv/iptv4.txt
 https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv6.m3u
 https://raw.githubusercontent.com/WaykeYu/iptv_integ/refs/heads/main/source/txt/4gTV.txt
