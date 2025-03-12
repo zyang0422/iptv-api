@@ -2,7 +2,7 @@
 # This is a list of subscription sources, with one subscription address per line
 
 
-
+http://west.shaonv.me/tvbox/live.txt
 http://175.178.251.183:6689/aktvlive.txt
 
 http://live.zbds.top/tv/iptv4.txt
