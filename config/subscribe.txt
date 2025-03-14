@@ -1,6 +1,7 @@
 # 这是订阅源列表，每行一个订阅地址
 # This is a list of subscription sources, with one subscription address per line
 
+http://tv.hfr.free.nf/jm.php?jm=https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1736923192652/boboji.m3u
 https://raw.githubusercontent.com/wwb521/live/refs/heads/main/tv.txt
 http://west.shaonv.me/tvbox/live.txt
 http://175.178.251.183:6689/aktvlive.txt
