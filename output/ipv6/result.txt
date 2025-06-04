@@ -2071,4 +2071,4 @@ CCTV15,http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/888888
 射雕英雄传,http://live.iill.top/yy.php?id=1354210357#https://lunbo.freetv.top/yy/1354210357#http://1.94.31.214:35455/huya/23824164
 
 🕘️更新时间,#genre#
-2025-06-04 06:51:47,http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8$订阅源
+2025-06-04 18:58:08,http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8$订阅源
