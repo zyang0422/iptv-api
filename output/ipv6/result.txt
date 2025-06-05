@@ -1417,6 +1417,7 @@ i-Fun 动漫台,https://z88.ubtvfans.com/live/rx2/1127/fb9c792790b1ed7dd6ccccbd5
 江苏影视,http://z.b.bkpcp.top/m.php?id=jsys$订阅源
 江苏教育,http://z.b.bkpcp.top/m.php?id=jsjy$订阅源
 江苏教育,http://goo.bkpcp.top/mg/jsjy$订阅源
+泗洪新闻综合,http://live1.habctv.com/ggpdsl/sd/live.m3u8?zjiangsd#http://live1.habctv.com/ggpdsl/sd/live.m3u8
 涟水电视台综合,http://live1.habctv.com/ggpdsl/sd/live.m3u8?zjiangsd#http://live1.habctv.com/ggpdsl/sd/live.m3u8
 涟水综合,http://live1.habctv.com/ggpdsl/sd/live.m3u8?zjiangsd#http://live1.habctv.com/ggpdsl/sd/live.m3u8
 淮安影院娱乐,http://live1.habctv.com/ysylsl/sd/live.m3u8?zjiangsd
@@ -2071,4 +2072,4 @@ CCTV15,http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/888888
 射雕英雄传,http://live.iill.top/yy.php?id=1354210357#https://lunbo.freetv.top/yy/1354210357#http://1.94.31.214:35455/huya/23824164
 
 🕘️更新时间,#genre#
-2025-06-05 18:56:10,http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8$订阅源
+2025-06-06 06:52:25,http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8$订阅源
