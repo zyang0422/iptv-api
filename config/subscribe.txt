@@ -6,6 +6,14 @@ https://raw.githubusercontent.com/wwb521/live/refs/heads/main/tv.txt
 https://xn--b9w.kak.si/daili/zhibo/api/api.txt
 https://live.izbds.com/tv/iptv4.txt
 
+https://gitee.com/mytv-android/iptv-api/raw/master/output/result.m3u
+https://yun.urldwz.com/f/dlkycZ/yylunbo.m3u
+https://tv.iill.top/m3u/Gather
+https://tv.iill.top/m3u/Live
+https://github.3x25.com/https://github.com/Kimentanm/aptv/raw/master/m3u/iptv.m3u
+https://github.moeyy.xyz/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u
+https://livetv.wqwqwq.sbs/tv.m3u
+https://gh-proxy.net/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u
 http://tv.hfr.free.nf/jm.php?jm=https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1736923192652/boboji.m3u
 
 http://west.shaonv.me/tvbox/live.txt
