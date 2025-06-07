@@ -1997,6 +1997,8 @@ http://pili-live-snapshot.tv.hntvcloud.com/mg-tv/channel-5.m3u8
 http://[2409:8087:5e08:24::2]:6610/000000001000/5000000006000040024/index.m3u8?channel-id=bestzb&Contentid=5000000006000040024&livemode=1&stbId=3
 #EXTINF:-1 tvg-name="金鹰卡通" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/金鹰卡通.png" group-title="动画频道",金鹰卡通
 http://[2409:8087:5011:1020::1e]/180000001001/00000001000000001001000000000039/main.m3u8
+#EXTINF:-1 tvg-name="金鹰卡通" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/金鹰卡通.png" group-title="动画频道",金鹰卡通
+http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000006000040024/2.m3u8
 #EXTINF:-1 tvg-name="黑莓动画" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/黑莓动画.png" group-title="动画频道",黑莓动画
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226935/1.m3u8
 #EXTINF:-1 tvg-name="黑莓动画" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/黑莓动画.png" group-title="动画频道",黑莓动画
@@ -2775,6 +2777,8 @@ http://ali-vl.cztv.com/channels/lantian/channel006/360p.m3u8$订阅源
 http://zwebl02.cztv.com/live/channel041080P.m3u8?auth_key=2524708799-0-0-f195b808217db133bfd648edc01e91fa$订阅源
 #EXTINF:-1 tvg-name="浙江教科影视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/浙江教科影视.png" group-title="浙江频道",浙江教科影视
 http://zhfivel02.cztv.com/channel04/1080p.m3u8?auth_key=2524708799-0-0-514823d0816d4af94a9f32bd7614ed67$订阅源
+#EXTINF:-1 tvg-name="浙江教科影视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/浙江教科影视.png" group-title="浙江频道",浙江教科影视
+http://ali-vl.cztv.com/channels/lantian/channel004/360p.m3u8
 #EXTINF:-1 tvg-name="浙江青田" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/浙江青田.png" group-title="浙江频道",浙江青田
 http://l.cztvcloud.com/channels/lantian/SXqingtian1/720p.m3u8?zzhed
 #EXTINF:-1 tvg-name="浙江遂昌" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/浙江遂昌.png" group-title="浙江频道",浙江遂昌
@@ -2902,7 +2906,7 @@ http://l.cztvcloud.com/channels/lantian/SXshangyu3/720p.m3u8?zzhed#http://l.cztv
 #EXTINF:-1 tvg-name="上虞文化影院" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/上虞文化影院.png" group-title="浙江频道",上虞文化影院
 http://l.cztvcloud.com/channels/lantian/SXshangyu2/720p.m3u8?zzhed#http://l.cztvcloud.com/channels/lantian/SXshangyu2/720p.m3u8#http://l.cztvcloud.com/channels/lantian/SXshangyu2/720p.m3u8?zzhed;http://l.cztvcloud.com/channels/lantian/SXshangyu2/720p.m3u8zzhed
 #EXTINF:-1 tvg-name="上虞文化影视" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/上虞文化影视.png" group-title="浙江频道",上虞文化影视
-http://l.cztvcloud.com/channels/lantian/SXshangyu2/720p.m3u8
+http://l.cztvcloud.com/channels/lantian/SXshangyu2/720p.m3u8#https://stream1.freetv.fun/bfeaa5de7a43447529c1b65f75dad75ed9cbdc04bdc3d2c4c4fd04b24bfe2efe.ctv#https://stream1.freetv.fun/ed3b8a9243b5e8fa21533dc229da88b92e7e352b00d14b5aabbcfa02e3d40f8b.ctv#https://stream1.freetv.fun/617b8a4ce0fff4baa5ea0d3dfe6642b2f52ebfb8a4b635cdb76a80ca0a8c9b3a.ctv
 #EXTINF:-1 tvg-name="湖南都市" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/湖南都市.png" group-title="湖南频道",湖南都市
 http://php.jdshipin.com:8880/iptv.php?id=hnds#http://111.8.224.6:9902/tsfile/live/1011_1.m3u8#http://113.218.190.140:8081/tsfile/live/0018_1.m3u8#http://124.231.213.16:9999/tsfile/live/1092_1.m3u8#http://218.76.32.193:9901/tsfile/live/1012_1.m3u8#http://218.77.81.186:9901/tsfile/live/1007_1.m3u8#http://222.241.154.37:9901/tsfile/live/23021_1.m3u8#http://222.243.221.54:9901/tsfile/live/1007_1.m3u8#http://a21709.tv.netsite.cc/proxy/1116439121/1116439121.m3u8#http://kkk.jjjj.jiduo.me/api.php?n=tttt&id=7510&tk=23a9aca1f79f#http://220.170.241.204:9901/tsfile/live/1002_1.m3u8#http://116.128.242.83:9901/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0#http://110.53.218.182:9902/tsfile/live/0127_1.m3u8
 #EXTINF:-1 tvg-name="湖南都市" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/湖南都市.png" group-title="湖南频道",湖南都市
@@ -4667,5 +4671,5 @@ https://judy.livednow.dpdns.org/yy/1354210357
 http://www.52sw.top:678/play/huya.php?id=23824164
 #EXTINF:-1 tvg-name="射雕英雄传" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/射雕英雄传.png" group-title="经典剧场",射雕英雄传
 https://live.metshop.top/yy/40959929
-#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV1.png" group-title="🕘️更新时间",2025-06-07 18:53:11
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://raw.githubusercontent.com/fanmingming/live/main/tv/CCTV1.png" group-title="🕘️更新时间",2025-06-08 06:50:25
 http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8$订阅源
