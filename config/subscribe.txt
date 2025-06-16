@@ -2,7 +2,7 @@
 # This is a list of subscription sources, with one subscription address per line
 
 http://150.158.112.123/live.txt
-https://github.3x25.com/https://raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.txt
+https://raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.txt
 https://gitee.com/mytv-android/iptv-api/raw/master/output/result.m3u
 
 https://live.izbds.com/tv/iptv4.txt
