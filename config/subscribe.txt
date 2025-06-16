@@ -1,13 +1,38 @@
 # 这是订阅源列表，每行一个订阅地址
 # This is a list of subscription sources, with one subscription address per line
 
-https://raw.githubusercontent.com/Guovin/iptv-database/master/result.txt
+http://150.158.112.123/live.txt
+https://github.3x25.com/https://raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.txt
+https://gitee.com/mytv-android/iptv-api/raw/master/output/result.m3u
+https://tv.iill.top/m3u/Gather
+https://live.izbds.com/tv/iptv4.txt
+http://xn--oev29b.top/files/tv.txt
+https://11344.kstore.space/hynh.txt
+https://tv.iill.top/m3u/Live
+http://west.shaonv.me/tvbox/live.txt
+https://github.3x25.com/https://github.com/Kimentanm/aptv/raw/master/m3u/iptv.m3u
+https://raw.githubusercontent.com/WaykeYu/iptv_integ/refs/heads/main/source/txt/4gTV.txt
+https://raw.githubusercontent.com/WaykeYu/iptv_integ/refs/heads/main/source/txt/TW_allsource.txt
+https://raw.githubusercontent.com/ssili126/tv/refs/heads/main/itvlist.txt
+https://raw.githubusercontent.com/yuanzl77/IPTV/main/直播/央视频道.txt
+https://live.zhoujie218.top/tv/iptv6.txt
+
+
+https://tv.youdu.fan:666/live/
+https://raw.githubusercontent.com/qingwen07/awesome-iptv/main/tvbox_live_all.txt
+http://home.jundie.top:81/Cat/tv/live.txt
+https://raw.githubusercontent.com/ssili126/tv/main/itvlist.txt
+
+https://gitee.com/kdsb/lm/raw/master/2025
+
 https://raw.githubusercontent.com/iptv-org/iptv/gh-pages/countries/cn.m3u
 https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
-https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv6.m3u
-https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/merged_output.txt
+
 https://raw.githubusercontent.com/asdjkl6/tv/tv/.m3u/整套直播源/测试/整套直播源/l.txt
 https://raw.githubusercontent.com/asdjkl6/tv/tv/.m3u/整套直播源/测试/整套直播源/kk.txt
+https://raw.githubusercontent.com/yuanzl77/IPTV/master/live.txt
 https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u
 https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv6.txt
-https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt
+
+https://raw.githubusercontent.com/YueChan/Live/main/APTV.m3u
+https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u
