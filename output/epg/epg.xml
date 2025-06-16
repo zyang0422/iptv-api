@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<tv date="20250616011140 +0800">
+<tv date="20250616023614 +0800">
 	<channel id="怀旧剧场">
 		<display-name lang="zh">怀旧剧场</display-name>
 	</channel>
@@ -22434,10 +22434,4 @@
 	<programme channel="NEWTV中国功夫" start="20250616072600 +0800" stop="20250616083000 +0800">
 		<title lang="zh">29_千古玦尘</title>
 	</programme>
-	<channel id="IPTV经典电影">
-		<display-name lang="zh">IPTV经典电影</display-name>
-	</channel>
-	<channel id="新动漫">
-		<display-name lang="zh">新动漫</display-name>
-	</channel>
 </tv>
