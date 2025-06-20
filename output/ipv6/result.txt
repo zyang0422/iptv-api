@@ -6,13 +6,21 @@
 
 动画频道,#genre#
 
+电影频道,#genre#
+
 港·澳·台,#genre#
 
 AKTV,#genre#
 
 广东频道,#genre#
 
+浙江频道,#genre#
+
+湖南频道,#genre#
+
 江苏频道,#genre#
+
+北京频道,#genre#
 
 上海频道,#genre#
 
@@ -32,9 +40,15 @@ AKTV,#genre#
 
 山东频道,#genre#
 
+山西频道,#genre#
+
 青海频道,#genre#
+
+IHOT,#genre#
+
+NEWTV,#genre#
 
 音乐频道,#genre#
 
 🕘️更新时间,#genre#
-2025-06-21 07:40:25,url
+2025-06-21 07:54:58,url
