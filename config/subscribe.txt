@@ -1,6 +1,16 @@
 # 这是订阅源列表，每行一个订阅地址
 # This is a list of subscription sources, with one subscription address per line
 
+
+https://tv.youdu.fan:666/live/
+https://raw.githubusercontent.com/qingwen07/awesome-iptv/main/tvbox_live_all.txt
+http://home.jundie.top:81/Cat/tv/live.txt
+https://raw.githubusercontent.com/ssili126/tv/main/itvlist.txt
+
+https://gitee.com/kdsb/lm/raw/master/2025
+https://raw.githubusercontent.com/YueChan/Live/main/APTV.m3u
+https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u
+
 https://raw.githubusercontent.com/Guovin/iptv-database/master/result.txt
 https://raw.githubusercontent.com/iptv-org/iptv/gh-pages/countries/cn.m3u
 https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
