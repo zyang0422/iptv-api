@@ -21,3 +21,5 @@ https://ghproxy.cc/https://raw.githubusercontent.com/ssili126/tv/main/itvlist.tx
 https://ghproxy.cc/https://raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/live.txt
 
 http://lisha521.dynv6.net.fh4u.org/tv.txt
+
+http://lisha521.dynv6.net.fh4u.org/iptv.txt
