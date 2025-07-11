@@ -29,3 +29,7 @@ http://lisha521.dynv6.net.fh4u.org/iptv.txt
 
 
 https://ghproxy.cc/https://raw.githubusercontent.com/Guovin/iptv-api/refs/heads/master/output/result.txt
+
+https://gitee.com/mytv-android/iptv-api/raw/master/output/result.m3u
+
+https://gh-proxy.com/https://github.com/Kimentanm/aptv/raw/master/m3u/iptv.m3u
