@@ -28,3 +28,7 @@ http://lisha521.dynv6.net.fh4u.org/iptv.txt
 https://raw.githubusercontent.com/Guovin/iptv-api/refs/heads/master/output/result.txt
 
 https://gitee.com/mytv-android/iptv-api/raw/master/output/result.m3u
+
+
+https://raw.githubusercontent.com/lalifeier/IPTV/main/txt/hotel/%E5%85%A8%E5%9B%BD.txt
+
