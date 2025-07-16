@@ -34,3 +34,5 @@ https://raw.githubusercontent.com/lalifeier/IPTV/main/txt/hotel/%E5%85%A8%E5%9B%
 
 https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u
 
+https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u
+
