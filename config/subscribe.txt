@@ -32,3 +32,5 @@ https://gitee.com/mytv-android/iptv-api/raw/master/output/result.m3u
 
 https://raw.githubusercontent.com/lalifeier/IPTV/main/txt/hotel/%E5%85%A8%E5%9B%BD.txt
 
+https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u
+
