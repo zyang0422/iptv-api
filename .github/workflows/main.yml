@@ -2,7 +2,7 @@ name: Update IPTV Sources
 
 on:
   schedule:
-    - cron: '0 10,16,22 * * *'  # 每天北京时间 18:00 和 06:00 和 12:00 运行
+    - cron: '0 10,16,22 * * *'  # 每天北京时间 06:00 和 12:00 和 18:00 运行
   workflow_dispatch:  # 允许手动触发
 
 jobs:
