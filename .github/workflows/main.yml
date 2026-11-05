@@ -2,12 +2,8 @@ name: 'Update schedule'
 
 on:
   schedule:
-    - cron: '0 10 */2 * *'
-  workflow_dispatch:
-    branches:
-      - master
-      - dev
-      - gd
+    - cron: '0 10,16,22 * * *'  # 每天北京时间 06:00 和 12:00 和 18:00 运行
+  workflow_dispatch:  # 允许手动触发
 
 permissions:
   contents: write
