@@ -16,8 +16,8 @@ CCTV14,https://event.pull.hebtv.com/jishi/cp2.m3u8$订阅源
 CCTV15,http://t.061899.xyz/tl/tl.php?id=cctv15$订阅源
 CCTV16,http://t.061899.xyz/tl/tl.php?id=cctv16$订阅源
 CCTV17,http://t.061899.xyz/tl/tl.php?id=cctv17$订阅源
-CCTV5+,https://php.jdshipin.com/TVOD/iptv.php$订阅源
 CCTV5+,http://t.061899.xyz/tl/tl.php?id=cctv5p$订阅源
+CCTV5+,https://php.jdshipin.com/TVOD/iptv.php$订阅源
 CCTV-4,http://t.061899.xyz/tl/tl.php?id=cctv4$订阅源
 CCTV-5,http://t.061899.xyz/tl/tl.php?id=cctv5$订阅源
 CCTV-6,http://t.061899.xyz/tl/tl.php?id=cctv6$订阅源
@@ -35,8 +35,8 @@ CCTV-14,https://event.pull.hebtv.com/jishi/cp2.m3u8$订阅源
 CCTV-15,http://t.061899.xyz/tl/tl.php?id=cctv15$订阅源
 CCTV-16,http://t.061899.xyz/tl/tl.php?id=cctv16$订阅源
 CCTV-17,http://t.061899.xyz/tl/tl.php?id=cctv17$订阅源
-CCTV-5+,https://php.jdshipin.com/TVOD/iptv.php$订阅源
 CCTV-5+,http://t.061899.xyz/tl/tl.php?id=cctv5p$订阅源
+CCTV-5+,https://php.jdshipin.com/TVOD/iptv.php$订阅源
 
 卫视频道,#genre#
 广东卫视,http://t.061899.xyz/tl/tl.php?id=gdws$订阅源
@@ -77,13 +77,13 @@ CCTV5,http://t.061899.xyz/tl/tl.php?id=cctv5$订阅源
 
 动画频道,#genre#
 优漫卡通,http://t.061899.xyz/tl/tl.php?id=ymkt$订阅源
-七龙珠,https://live.metshop.top/huya/11601966$订阅源
 七龙珠,https://live.ottiptv.cc/huya/11601966$订阅源
+七龙珠,https://live.metshop.top/huya/11601966$订阅源
 海绵宝宝,https://live.metshop.top/douyu/3949681$订阅源
-中华小当家,https://live.metshop.top/huya/11342413$订阅源
 中华小当家,https://live.ottiptv.cc/huya/11342413$订阅源
-猫和老鼠,https://live.metshop.top/huya/11352879$订阅源
+中华小当家,https://live.metshop.top/huya/11342413$订阅源
 猫和老鼠,https://live.ottiptv.cc/huya/11352879$订阅源
+猫和老鼠,https://live.metshop.top/huya/11352879$订阅源
 蜡笔小新,https://live.ottiptv.cc/bilibili/30837590$订阅源
 
 电影频道,#genre#
@@ -169,8 +169,8 @@ TVB Plus,http://r.jdshipin.com/Nr5jq$订阅源
 陕西公共,http://ls.qingting.fm/live/1222.m3u8$订阅源
 
 福建频道,#genre#
-三明新闻综合,https://ls.qingting.fm/live/5022100/64k.m3u8$订阅源
 三明新闻综合,http://ls.qingting.fm/live/4885.m3u8$订阅源
+三明新闻综合,https://ls.qingting.fm/live/5022100/64k.m3u8$订阅源
 云霄综合,http://live.zzyxxw.com:85/live/xwzh.m3u8?fujian,$订阅源
 福州少儿,http://live.zohi.tv/video/s10001-fztv-4/index.m3u8$订阅源
 
@@ -184,8 +184,8 @@ TVB Plus,http://r.jdshipin.com/Nr5jq$订阅源
 邢台综合,https://jwplay.hebyun.com.cn:443/live/xtsrmtzs/1500k/tzwj_video.m3u8$订阅源
 衡水公共,http://ls.qingting.fm/live/2810.m3u8$订阅源
 滦平新闻,http://jwplay.hebyun.com.cn/live/LPTV001/1500k/tzwj_video.m3u8$订阅源
-河北农民,https://ls.qingting.fm/live/1650/64k.m3u8$订阅源
 河北农民,http://ls.qingting.fm/live/1650.m3u8$订阅源
+河北农民,https://ls.qingting.fm/live/1650/64k.m3u8$订阅源
 
 贵州频道,#genre#
 
@@ -221,6 +221,7 @@ TVB Plus,http://r.jdshipin.com/Nr5jq$订阅源
 西宁新闻综合,https://liveout.xntv.tv/a65jur/96iln2.m3u8?zqinghd$订阅源
 
 黑龙江频道,#genre#
+黑龙江新闻法治,https://ls.qingting.fm/live/4974/64k.m3u8$订阅源
 黑龙江少儿,https://ls.qingting.fm/live/4972/64k.m3u8$订阅源
 黑龙江新闻,https://ls.qingting.fm/live/4974/64k.m3u8$订阅源
 
@@ -235,8 +236,8 @@ TVB Plus,http://r.jdshipin.com/Nr5jq$订阅源
 CCTV-15,http://t.061899.xyz/tl/tl.php?id=cctv15$订阅源
 
 经典剧场,#genre#
-笑傲江湖,https://live.metshop.top/huya/23865142$订阅源
 笑傲江湖,https://live.ottiptv.cc/huya/26355790$订阅源
+笑傲江湖,https://live.metshop.top/huya/23865142$订阅源
 天龙八部,https://live.ottiptv.cc/huya/20985816$订阅源
 鹿鼎记,https://live.ottiptv.cc/yy/28265277$订阅源
 仙剑奇侠传,https://live.ottiptv.cc/yy/1382749903$订阅源
@@ -247,4 +248,4 @@ CCTV-15,http://t.061899.xyz/tl/tl.php?id=cctv15$订阅源
 射雕英雄传,https://live.metshop.top/huya/23824164$订阅源
 
 🕘️更新时间,#genre#
-2026-11-07 01:25:29,http://t.061899.xyz/tl/tl.php?id=cctv4$订阅源
+2026-11-07 09:46:26,http://t.061899.xyz/tl/tl.php?id=cctv4$订阅源
