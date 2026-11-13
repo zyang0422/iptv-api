@@ -1,39 +1,39 @@
-name: 'Update schedule'
+名称：'更新计划': 'Update schedule'
 
-on:
-  schedule:
-    - cron: '0 10,16,22 * * *'  # 每天北京时间 06:00 和 12:00 和 18:00 运行
-  workflow_dispatch:  # 允许手动触发
+在：:
+  时间表：:
+    - cron: '0 10,0,22 * * *'  # 每天北京时间 06:00  和 18:00 运行cron: '0 10,16,22 * * *'  # 每天北京时间 06:00 和 12:00 和 18:00 运行
+  workflow_dispatch:  # 允许手动触发:  # 允许手动触发
 
-permissions:
-  contents: write
-  actions: read
+权限：:
+  内容：写: write
+  操作：读取: read
 
-concurrency:
-  group: iptv-update-${{ github.ref }}
-  cancel-in-progress: true
+并发：:
+  组：iptv-update-${{ github.ref }}: iptv-update-${{ github.ref }}
+  取消进行中：true: true
 
-jobs:
-  push:
-    runs-on: ${{ matrix.operating-system }}
-    timeout-minutes: 60
-    strategy:
-      matrix:
-        operating-system: [ 'ubuntu-latest' ]
-    steps:
-      - name: Set branch name
-        id: vars
-        run: echo "BRANCH_NAME=${{ github.repository_owner == 'Guovin' && 'gd' || 'master' }}" >> $GITHUB_ENV
-      - uses: actions/checkout@v6
-        with:
-          ref: ${{ env.BRANCH_NAME }}
-          fetch-depth: 0
-      - name: Run with setup-python 3.13
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.13'
-          update-environment: true
-          cache: 'pip'
+职位：:
+  推送：:
+    运行于: ${{ matrix.operating-system }}: ${{ matrix.operating-system }}
+    超时分钟数: 60: 60
+    策略：:
+      矩阵：:
+        操作系统: [ 'ubuntu-latest' ]: [ 'ubuntu-latest' ]
+    步骤：:
+      - 名称：设置分支名称name: Set branch name
+        id: 变量: vars
+        运行：echo "BRANCH_NAME=${{ github.repository_owner == 'Guovin' && 'gd' || 'master' }}" >> $GITHUB_ENV: echo "BRANCH_NAME=${{ github.repository_owner == 'Guovin' && 'gd' || 'master' }}" >> $GITHUB_ENV
+      - 用法：actions/checkout@v6uses: actions/checkout@v6
+        使用：:
+          ref: ${{ env.BRANCH_NAME }}: ${{ env.BRANCH_NAME }}
+          fetch-depth: 0: 0
+      - name: 使用 setup-python 3.13 运行name: Run with setup-python 3.13
+        使用：actions/setup-python@v5: actions/setup-python@v5
+        使用：:
+          python-version: '3.13': '3.13'
+          更新环境：是: true
+          缓存：'pip': 'pip'
           cache-dependency-path: 'Pipfile.lock'
       - name: Check open_driver config
         id: check_driver
