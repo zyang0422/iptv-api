@@ -54,7 +54,6 @@ TVB Plus,http://r.jdshipin.com/Nr5jq$订阅源
 广州综合,http://r.jdshipin.com/iR6Gq$订阅源
 
 浙江频道,#genre#
-浙江生活,http://ls.qingting.fm/live/1099.m3u8$订阅源
 嘉兴新闻综合,http://live.zohi.tv/video/s10001-fztv-1/index.m3u8$订阅源
 
 湖南频道,#genre#
@@ -98,8 +97,8 @@ TVB Plus,http://r.jdshipin.com/Nr5jq$订阅源
 陕西公共,http://ls.qingting.fm/live/1222.m3u8$订阅源
 
 福建频道,#genre#
-三明新闻综合,http://ls.qingting.fm/live/4885.m3u8$订阅源
 三明新闻综合,https://ls.qingting.fm/live/5022100/64k.m3u8$订阅源
+三明新闻综合,http://ls.qingting.fm/live/4885.m3u8$订阅源
 云霄综合,http://live.zzyxxw.com:85/live/xwzh.m3u8?fujian,$订阅源
 福州少儿,http://live.zohi.tv/video/s10001-fztv-4/index.m3u8$订阅源
 
@@ -113,8 +112,8 @@ TVB Plus,http://r.jdshipin.com/Nr5jq$订阅源
 邢台综合,https://jwplay.hebyun.com.cn:443/live/xtsrmtzs/1500k/tzwj_video.m3u8$订阅源
 衡水公共,http://ls.qingting.fm/live/2810.m3u8$订阅源
 滦平新闻,http://jwplay.hebyun.com.cn/live/LPTV001/1500k/tzwj_video.m3u8$订阅源
-河北农民,http://ls.qingting.fm/live/1650.m3u8$订阅源
 河北农民,https://ls.qingting.fm/live/1650/64k.m3u8$订阅源
+河北农民,http://ls.qingting.fm/live/1650.m3u8$订阅源
 
 贵州频道,#genre#
 
@@ -174,4 +173,4 @@ TVB Plus,http://r.jdshipin.com/Nr5jq$订阅源
 射雕英雄传,https://live.metshop.top/huya/23824164$订阅源
 
 🕘️更新时间,#genre#
-2026-11-20 03:16:18,https://xykt-fix.github.io/Y77.m3u8$订阅源
+2026-11-20 11:15:50,https://xykt-fix.github.io/Y77.m3u8$订阅源
