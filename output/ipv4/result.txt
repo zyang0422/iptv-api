@@ -4,13 +4,13 @@ CCTV2,http://74.91.26.218:82/live/cctv2hd.m3u8$订阅源
 CCTV3,http://74.91.26.218:82/live/cctv3hd.m3u8$订阅源
 CCTV3,http://120.76.248.139/live/bfgd/4200000062.m3u8$订阅源
 CCTV4,http://120.76.248.139/live/bfgd/4200000063.m3u8$订阅源
-CCTV5,http://gmxw.7766.org:808/hls/93/index.m3u8$订阅源
 CCTV5,http://112.46.85.60:8009/hls/503/index.m3u8$订阅源
 CCTV5,http://183.11.239.36:808/hls/93/index.m3u8$订阅源
+CCTV5,http://gmxw.7766.org:808/hls/93/index.m3u8$订阅源
 CCTV5,http://61.136.172.236:9901/tsfile/live/0005_1.m3u8$订阅源
 CCTV5,http://58.57.40.22:9901/tsfile/live/1004_1.m3u8$订阅源
-CCTV6,http://198.204.240.250:82/live/cctv6.m3u8$订阅源
 CCTV6,http://69.30.245.50/live/cctv6.m3u8$订阅源
+CCTV6,http://198.204.240.250:82/live/cctv6.m3u8$订阅源
 CCTV7,http://74.91.26.218:82/live/cctv7hd.m3u8$订阅源
 CCTV8,http://74.91.26.218:82/live/cctv8hd.m3u8$订阅源
 CCTV9,http://74.91.26.218:82/live/cctv9hd.m3u8$订阅源
@@ -32,13 +32,13 @@ CCTV-2,http://74.91.26.218:82/live/cctv2hd.m3u8$订阅源
 CCTV-3,http://74.91.26.218:82/live/cctv3hd.m3u8$订阅源
 CCTV-3,http://120.76.248.139/live/bfgd/4200000062.m3u8$订阅源
 CCTV-4,http://120.76.248.139/live/bfgd/4200000063.m3u8$订阅源
-CCTV-5,http://gmxw.7766.org:808/hls/93/index.m3u8$订阅源
 CCTV-5,http://112.46.85.60:8009/hls/503/index.m3u8$订阅源
 CCTV-5,http://183.11.239.36:808/hls/93/index.m3u8$订阅源
+CCTV-5,http://gmxw.7766.org:808/hls/93/index.m3u8$订阅源
 CCTV-5,http://61.136.172.236:9901/tsfile/live/0005_1.m3u8$订阅源
 CCTV-5,http://58.57.40.22:9901/tsfile/live/1004_1.m3u8$订阅源
-CCTV-6,http://198.204.240.250:82/live/cctv6.m3u8$订阅源
 CCTV-6,http://69.30.245.50/live/cctv6.m3u8$订阅源
+CCTV-6,http://198.204.240.250:82/live/cctv6.m3u8$订阅源
 CCTV-7,http://74.91.26.218:82/live/cctv7hd.m3u8$订阅源
 CCTV-8,http://74.91.26.218:82/live/cctv8hd.m3u8$订阅源
 CCTV-9,http://74.91.26.218:82/live/cctv9hd.m3u8$订阅源
@@ -135,8 +135,8 @@ CCTV-5+,http://58.57.40.22:9901/tsfile/live/1005_1.m3u8$订阅源
 宁夏卫视,http://120.76.248.139/live/bfgd/4200000118.m3u8$订阅源
 内蒙古卫视,https://live.264788.xyz/channel/neimengguweishi?streamid=81a015dbecf3031d7d847b7a9b059f67&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk$订阅源
 内蒙古卫视,http://120.76.248.139/live/bfgd/4200000110.m3u8$订阅源
-内蒙古卫视,https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8$订阅源
 内蒙古卫视,http://play1-qk.nmtv.cn/live/1769652018126032.m3u8$订阅源
+内蒙古卫视,https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8$订阅源
 内蒙古卫视,http://183.11.239.36:808/hls/60/index.m3u8$订阅源
 西藏卫视,https://live.264788.xyz/channel/xizangweishi?streamid=4b4e8ea919f1cfd5e43deed1d1675251&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk$订阅源
 西藏卫视,http://183.11.239.36:808/hls/64/index.m3u8$订阅源
@@ -146,10 +146,16 @@ CCTV-5+,http://58.57.40.22:9901/tsfile/live/1005_1.m3u8$订阅源
 延边卫视,http://120.76.248.139/live/bfgd/4200000117.m3u8$订阅源
 延边卫视,http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8$订阅源
 
+4K频道,#genre#
+苏州4K,https://tylive.kan0512.com/norecord/csztv4k_4k.m3u8$订阅源
+苏州4K,https://live-auth.51kandianshi.com/szgd/csztv4k_hd.m3u8$订阅源
+南国都市4K,https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=550af55c0ea34ce492748481415b6dfa&txTime=1903e7b17de$订阅源
+东方卫视4K,https://bp-resource-dfl.bestv.cn/148/3/video.m3u8$订阅源
+
 体育频道,#genre#
-CCTV5,http://gmxw.7766.org:808/hls/93/index.m3u8$订阅源
 CCTV5,http://112.46.85.60:8009/hls/503/index.m3u8$订阅源
 CCTV5,http://183.11.239.36:808/hls/93/index.m3u8$订阅源
+CCTV5,http://gmxw.7766.org:808/hls/93/index.m3u8$订阅源
 CCTV5,http://61.136.172.236:9901/tsfile/live/0005_1.m3u8$订阅源
 CCTV5,http://58.57.40.22:9901/tsfile/live/1004_1.m3u8$订阅源
 纬来体育,rtmp://f13h.mine.nu/sat/tv721$订阅源
@@ -214,13 +220,10 @@ AKTV,#genre#
 湖州文化娱乐,http://hzcm-live.media.hugd.com/613c47f0ab0d4eaa98b21378d0db6ded/0051d31c9dd543a7825eea4e49675b2a.m3u8?auth_key=2277598059-0a5ebfa1c0dc4671b42a60810fc37039-0-fa625b7d1feab612062453c12e3c8887$订阅源
 浙江经视,http://ali-m-l.cztv.com/channels/lantian/channel003/720p.m3u8$订阅源
 浙江经视,https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8$订阅源
-浙江留学,http://ali-vl.cztv.com/channels/lantian/channel009/360p.m3u8$订阅源
 浙江民生休闲,https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8$订阅源
-浙江民生休闲,http://ali-vl.cztv.com/channels/lantian/channel006/360p.m3u8$订阅源
 浙江数码时代,http://ali-m-l.cztv.com/channels/lantian/channel12/720p.m3u8?zzhed$订阅源
 浙江教科影视,http://ali-m-l.cztv.com/channels/lantian/channel04/1080p.m3u8$订阅源
 浙江教科影视,https://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8$订阅源
-浙江教科影视,http://ali-vl.cztv.com/channels/lantian/channel004/360p.m3u8$订阅源
 浙江公共新闻,http://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8$订阅源
 浙江公共新闻,https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8$订阅源
 浙江休闲台,http://ali-m-l.cztv.com/channels/lantian/channel006/720p.m3u8$订阅源
@@ -232,9 +235,9 @@ AKTV,#genre#
 青田电视台,http://l.cztvcloud.com/channels/lantian/SXqingtian1/720p.m3u8$订阅源
 遂昌综合,http://l.cztvcloud.com/channels/lantian/SXsuichang1/720p.m3u8?zzhed$订阅源
 象山综合,http://play-sh13.quklive.com/live/1702360350551252.m3u8?auth_key=2037107484-800189c57a5a44d3b823b60cf84f6756-0-a6f6828a62d5c167cff5e68735fa0d39$订阅源
+象山综合,http://l.cztvcloud.com/channels/lantian/SXxiangshan1/720p.m3u8$订阅源
 象山新闻综合,http://l.cztvcloud.com/channels/lantian/SXxiangshan1/720p.m3u8$订阅源
 衢江新闻综合,http://l.cztvcloud.com/channels/lantian/SXqujiang1/720p.m3u8?zzhed$订阅源
-萧山生活,https://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8$订阅源
 萧山生活,http://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8$山东酒店源-cache:http://47.104.102.192/ZHGXTV/Public/json/live_interface.txt-酒店源
 萧山新闻综合,https://l.cztvcloud.com/channels/lantian/SXxiaoshan1/720p.m3u8$订阅源
 萧山新闻综合,http://l.cztvcloud.com/channels/lantian/SXxiaoshan1/720p.m3u8$山东酒店源-cache:http://47.104.102.192/ZHGXTV/Public/json/live_interface.txt-酒店源
@@ -463,4 +466,4 @@ CCTV-15,http://74.91.26.218:82/live/cctv15hd.m3u8$订阅源
 经典剧场,#genre#
 
 🕘️更新时间,#genre#
-2026-11-21 02:43:22,http://74.91.26.218:82/live/cctv1hd.m3u8$订阅源
+2026-11-22 01:08:13,http://74.91.26.218:82/live/cctv1hd.m3u8$订阅源
