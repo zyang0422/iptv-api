@@ -15,6 +15,8 @@ CCTV-5+,https://php.jdshipin.com/TVOD/iptv.php$订阅源
 4K频道,#genre#
 
 体育频道,#genre#
+精品体育,https://epg.pw/stream/f7556eccd4ae06b0c2991fdc7a4f8388496559f728cc82459a8e50346040e226.m3u8$订阅源
+足球频道,https://epg.pw/stream/c7df950876e6a1ceb8be74ee86f9f702cebbbae29f1d15124ef8f86fd43161cf.m3u8$订阅源
 
 动画频道,#genre#
 七龙珠,https://live.ottiptv.cc/huya/11601966$订阅源
@@ -178,4 +180,4 @@ TVB Plus,http://r.jdshipin.com/Nr5jq$订阅源
 射雕英雄传,https://live.metshop.top/huya/23824164$订阅源
 
 🕘️更新时间,#genre#
-2026-11-25 13:04:29,https://xykt-fix.github.io/Y77.m3u8$订阅源
+2026-11-26 04:04:22,https://xykt-fix.github.io/Y77.m3u8$订阅源
